@@ -1,0 +1,123 @@
+/* Header of the page */
+
+.img__header{
+   position: fixed;
+   top: 10px;
+   color: white;
+}
+.marca{
+    width: 35px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 95%;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.fondo1{
+    background-size: cover;
+    filter: grayscale(0.5) brightness(0.3) blur(2px);
+    background-attachment: fixed;
+    background-image: url(./imagenes/fondo.jpg);
+    width: 100%;
+    height: 120vh;
+    background-position: center;
+    z-index: -1;
+    position: absolute;
+}
+.list{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    justify-content: end;
+    gap: 1em;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-align: center;
+    top: 15px;
+    color: rgb(255, 250, 184);
+    position: fixed;
+    right: 50px;
+    color: white;
+}
+
+.list6{
+    background-color: rgb(111, 0, 0);
+    width: 120%;
+    height: 150%;
+    padding-top: 20px;
+}
+/* Contenido del titulo */
+
+.title__contet{
+    
+    display:grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: 1fr 1fr;
+    width: 100%;
+    height: 250px;
+    margin-top: 15%;
+    background-color: rgb(138, 135, 135);
+  
+}
+
+.title{
+    text-align: center;
+    font-size: 72px;
+    max-width: 80%;
+    grid-column: 2/6;
+    color: rgb(176, 0, 0);
+    font-family: serif;
+    
+}
+.sub__title{
+    grid-column: 2/4;
+    grid-row: 2/3;
+    margin-top: 8px;
+    /* padding-top: 110px; */
+    /* background-color: rgba(59, 59, 59, 0.603); */
+}
+
+.redes{
+    /* grid-column: 6/7; */
+    list-style: none;
+    text-align: center;
+    right: 40px;
+    position: fixed;
+    
+}
+.redes__red img{
+    width: 2em;
+}
+._{
+    grid-column: 1/2;
+    color: rgb(207, 11, 11);
+    text-align: end;
+    font-size: 20px;  
+    /* padding-top: 110px;   */
+}
+.time{
+    display: flex;
+    
+}
+.day{
+    border: solid 2px white;
+    color: rgb(136, 0, 0);
+    font-size: 40px;
+}
+.month{
+    border: solid 3px white;
+    color: rgb(136, 0, 0);
+    font-size: 40px;
+}
+.tickets{
+    border: solid 3px white;
+    color: rgb(136, 0, 0);
+    font-size: 40px;
+}
