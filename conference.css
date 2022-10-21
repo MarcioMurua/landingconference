@@ -1,15 +1,19 @@
 /* Header of the page */
 
 .img__header{
-   position: fixed;
-   top: 10px;
-   color: white;
+    position: fixed;
+    top: 10px;
+    color: white;
 }
 .marca{
     width: 35px;
 }
+.header{
+    /* display: none; */
 
+}
 .nav{
+    
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -64,7 +68,7 @@
     height: 250px;
     margin-top: 15%;
     background-color: rgb(138, 135, 135);
-  
+    
 }
 
 .title{
@@ -90,7 +94,7 @@
     text-align: center;
     right: 40px;
     position: fixed;
-    
+    z-index: 2;
 }
 .redes__red img{
     width: 2em;
@@ -104,20 +108,67 @@
 }
 .time{
     display: flex;
-    
+    margin-bottom: 500px;
+    margin-top: 50px;
+    margin-left: 60%;
+    white-space: nowrap;
 }
 .day{
+    background-color: rgba(0, 0, 0, 0.705);
     border: solid 2px white;
     color: rgb(136, 0, 0);
     font-size: 40px;
+    padding: 20px;
+    font-weight: bold;
+    contain:paint;
 }
 .month{
+    background-color: rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+    border: solid 3px white;
+    color: rgb(136, 0, 0);
+    font-size: 40px;
+    padding: 20px;
+}
+.tickets{
+    background-color: rgba(0, 0, 0, 0.705);
+    font-weight: bold;
+    padding: 20px;
     border: solid 3px white;
     color: rgb(136, 0, 0);
     font-size: 40px;
 }
-.tickets{
-    border: solid 3px white;
-    color: rgb(136, 0, 0);
+
+/* ORATOR */
+
+.orator{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    background-color: lightblue;
+    height: 300px;
+    /* margin-top: 500px; */
+    /* position: relative; */
+    width: 100%;
+    
+    
+}
+.title__orator{
     font-size: 40px;
+    margin: 100px;
+    white-space: nowrap;
+}
+.info__orator{
+    text-align: end;
+    margin: 100px;
+    font-size: 40px;
+    white-space: nowrap;
+    color: rgb(158, 0, 158);
+}
+.orator__info{
+    display: flex;
+   /* margin: 0 auto; */
+   width: 60%;
+   grid-column: 1/3;
+   
 }
