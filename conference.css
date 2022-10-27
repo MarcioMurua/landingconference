@@ -1,5 +1,9 @@
 /* Header of the page */
 
+.header{
+    /* display: none; */
+
+}
 .img__header{
     position: fixed;
     top: 10px;
@@ -7,10 +11,6 @@
 }
 .marca{
     width: 35px;
-}
-.header{
-    /* display: none; */
-
 }
 .nav{
     
@@ -268,22 +268,22 @@
 .horario1{
     border: 0;
 }
-.horario3{
-    /* border: 0; */
-}
-
 .horario2{
-    /* background-color: black; */
+    background-color: black;
+    padding-top: 10px;
+    height: 400px;
    
 }
+
+
 .horario2__list{
     display:grid;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    width: 70%;
+    /* width: 70%; */
     height: 200px;
-    margin: 10%;
+    margin: 5%;
     /* padding-left: 25%; */
     /* gap: 1em; */
     background-color: rgba(162, 101, 220, 0.389);
@@ -296,7 +296,7 @@
     text-align: center;
     list-style: none;
     width: 100%;
-    height: 100%;
+    height:100%;
     padding-top: 20px;
     background-color: rgb(167, 135, 235);
 }
@@ -330,12 +330,16 @@
     padding-top: 40px;
 }
 /*Lugar */
+.lugar{
+    z-index: 21;
+}
 
 .lugar__content{
     display: flex;
     font-size: 30px;
     /* position: relative; */
     color: wheat;
+    background-color: black;
 }
 .lugar__img{
     background-size: cover;
@@ -355,9 +359,29 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.lugar__text{
+    margin: 60px;
+}
 .lugar__title{
-    /* position: absolute; */
+    color: white;
+    z-index: 20;
+    font-size: 100px;
+    background-color: black;
+}
+.lugar__subtitle{
+    margin: 6j0px 0;
 }
 .lugar__p{
-
+    z-index: 19;
+    background-color: black;
+}
+.patrocinadores__content{
+    background-color: blueviolet;
+    width: 100%;
+    height: 400px;
+   /* padding-top: 600px; */
+}
+.patrocinadores{
+    display: flex;
+    
 }
