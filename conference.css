@@ -1,10 +1,7 @@
 /* Header of the page */
-
-.header{
-    /* display: none; */
-
+html{
+    scroll-behavior: smooth;
 }
-
 .img__header{
     position: fixed;
     top: 10px;
@@ -14,7 +11,6 @@
     width: 35px;
 }
 .nav{
-    
     display: flex;
     justify-content: space-between;
     margin: 0 auto;
@@ -51,6 +47,10 @@
     right: 50px;
     color: white;
 }
+.content__list{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
 
 .list6{
     background-color: rgb(138, 0, 0);
@@ -61,14 +61,12 @@
 /* Contenido del titulo */
 
 .title__contet{
-    
     display:grid;
     grid-template-columns: repeat(6, 1fr);
     grid-template-rows: 1fr 1fr;
     width: 100%;
     height: 250px;
     margin-top: 15%;
-    
 }
 
 .title{
@@ -78,14 +76,12 @@
     grid-column: 2/6;
     color: rgb(246, 246, 246);
     font-family: serif;
-    
 }
 .sub__title{
     grid-column: 2/4;
     grid-row: 2/3;
     margin-top: 8px;
     color: rgb(227, 174, 185);
-  
 }
 
 .redes{
@@ -140,15 +136,11 @@
 /* ORATOR */
 
 .orator{
-    
-    /* position: relative; */
     display: flex;
     background-color: rgba(173, 216, 230, 0.347);
-  
     width: 100%;
     justify-content: center;
     height: 900px;
-    
 }
 .orator__container{
     display: flex;
@@ -156,7 +148,6 @@
     align-items: center;
     height: fit-content;
     flex-direction: column;
-    
 }
 .orator__top{
     display: flex;
@@ -166,7 +157,6 @@
     margin: 50px;
     white-space: nowrap;
     display: inline;
-    
 }
 .info__orator{
     display: inline;
@@ -175,7 +165,6 @@
     white-space: nowrap;
     color: rgb(209, 132, 209);
     width: 45%;
-    
 }
 .orator__info{
     display: flex;
@@ -188,7 +177,6 @@
     background-color: rgb(255, 255, 255);
 }
 .orator__img{
-    
     margin-right: 20px;
 }
 .orator__p{
@@ -204,24 +192,19 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
     text-align: center;
-
 }
 .orator__link{
-    
     list-style: none;
-    
 }
 .orator__item{
     grid-column: 1/6;
     font-size: 30px;
     margin:0 60px;
     text-align: start;
-
 }
 .orator__fac{
     grid-column: 2/4;
     background-color: red;
-    
 }
 .orator__ins{
     grid-row: 2/3;
@@ -231,14 +214,12 @@
 .orator__button{
     width: 230px ;
     background-color: rgb(6, 80, 140);
-    
 }
 .orator__button1{
     margin-left: 4px;
     margin-right: 5px;
 }
 .fondo2{
-    
     background-size: cover;
     filter: grayscale(0.1) brightness(0.5) blur(0.3px);
     background-attachment:fixed;
@@ -250,14 +231,11 @@
     position: absolute;
 }
 .horarios{
-    /* border: 2px solid red; */
-    /* margin-top: 186px; */
     font-size: 50px;
     color: white;
     background-color: rgba(0, 0, 124, 0.451) ;
 }
 .horarios__title{
-    /* margin:50px; */
     padding: 50px;
 }
 .horario{
@@ -272,24 +250,17 @@
     background-color: black;
     padding-top: 10px;
     height: 400px;
-
-   
 }
-
 
 .horario2__list{
     display:grid;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    /* width: 70%; */
     height: 200px;
     margin: 5%;
-    /* padding-left: 25%; */
-    /* gap: 1em; */
     background-color: rgba(162, 101, 220, 0.389);
     font-weight: bold;
-    /* border: 1px solid black; */
 }
 
 .horario__footer{
@@ -313,7 +284,6 @@
 .horario__footer4{
     grid-column: 1/2;
     grid-row: 2/3;
-    /* margin:0 80px; */
     border-right: 3px solid black;
 }
 .horario__footer5{
@@ -335,18 +305,15 @@
     z-index: 21;
     height: 100vh;
     width: 100%;
-
 }
 
 .lugar__content{
     display: flex;
     font-size: 30px;
-    /* position: relative; */
     color: wheat;
     background-color: black;
     justify-content: space-between;
     height: 100%;
-   
 }
 
 
@@ -357,7 +324,6 @@
     width: 100%;
     min-width: 500px;
     height: 100%;
-    /* background-position:center; */
     background-repeat: no-repeat;
     min-height: 900px;
     min-width: 700px;
@@ -387,7 +353,6 @@
     background-color: blueviolet;
     width: 100%;
     height: 400px;
-   /* padding-top: 600px; */
 }
 .patrocinadores{
     display: flex;
@@ -423,12 +388,13 @@
     background-color:rgb(56, 2, 55);
     display: flex;
     justify-content: center;
+
 }
 .footer__content{
     
     max-width: 1000px;
     width: 100%;
-    height: 100vh;
+    height: 60vh;
     background-color: rgb(56, 2, 55);
     color: rgb(255, 255, 255);
 }
@@ -454,32 +420,29 @@
     color: rgb(112, 135, 249);
 }
 .footer__pay{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-bottom: 2px solid rgb(255, 255, 255);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 1fr 1fr;
-    /* align-items: center; */
     place-items:center;
-    /* text-align: center;     */
     width: 100%;
-    height: 33%;
+    height: 25%;
     font-size: 25px;
 }
-.footer__pay--f4{
-    /* display: flex; */
+/* .footer__pay--f4{
+    
     
 }
 .footer__f4{
-    /* padding: 60px; */
-    /* width: 100px; */
-    /* height: 100px; */
     
 }
 .footer__pay--p{
-    /* display: flex; */
-}
+   
+} */
 .footer__p{
-    
+    color: rgba(240, 248, 255, 0.522);
+    font-size: 20px;
 }
 .p1{
     grid-column: 1/2;
@@ -496,5 +459,71 @@
 .p4{
     grid-column: 4/5;
     grid-row: 1/3;
+    color: aliceblue;
+    background-color: rgb(72, 0, 160);
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.footer__end{
+    padding: 20px;
+}
+.footer__contact{
+    font-size: 30px;
     
+}
+/* .footer__f4--contact{
+   
+    
+} */
+.footer__p--contact{
+    color: rgba(240, 248, 255, 0.592);
+}
+
+.footer__button{
+    background-color: transparent;
+    padding: 15px 35px;
+    border-radius: 8px;
+    font-size: 20px;
+    color: aliceblue;
+    border: white solid 1px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.mail{
+    background-color: rgba(240, 248, 255, 0.461);
+    height: 3rem;
+    width: 35vh;
+    border-radius: 5px;
+}
+.footer__end--line{
+    background-color: rgb(132, 24, 132);
+    width: 100%;
+    border-radius: 5px solid red;
+    justify-content: center;
+}
+.footer__info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 50px;
+    font-size: 12px;
+    background-color: rgb(132, 24, 132);
+    margin: auto;
+    font-size: 15px;
+    color: aliceblue;
+}
+
+.footer__terminos{
+    display: flex;
+}
+
+.terminos{
+    margin: 0 20px;
+}
+
+.politica{
+    margin: 0 20px;
 }
