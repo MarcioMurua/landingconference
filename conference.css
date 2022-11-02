@@ -7,7 +7,7 @@ html{
     top: 10px;
     color: white;
 }
-.marca{
+.brands{
     width: 35px;
 }
 .nav{
@@ -20,7 +20,7 @@ html{
     align-items: center;
     padding-top: 20px;
 }
-.fondo1{
+.background1{
     background-size: cover;
     filter: grayscale(0.5) brightness(0.3) blur(2px);
     background-attachment: fixed;
@@ -84,14 +84,14 @@ html{
     color: rgb(227, 174, 185);
 }
 
-.redes{
+.networks{
     list-style: none;
     text-align: center;
     right: 40px;
     position: fixed;
     z-index: 2;
 }
-.redes__red img{
+.networks__red img{
     width: 2em;
 }
 ._{
@@ -219,7 +219,7 @@ html{
     margin-left: 4px;
     margin-right: 5px;
 }
-.fondo2{
+.background2{
     background-size: cover;
     filter: grayscale(0.1) brightness(0.5) blur(0.3px);
     background-attachment:fixed;
@@ -230,29 +230,29 @@ html{
     z-index: -1;
     position: absolute;
 }
-.horarios{
+.hours{
     font-size: 50px;
     color: white;
     background-color: rgba(0, 0, 124, 0.451) ;
 }
-.horarios__title{
+.hours__title{
     padding: 50px;
 }
-.horario{
+.hour{
     padding: 50px;
     list-style: none;
     border-top: 1px  solid black;
 }
-.horario1{
+/* .hours1{
     border: 0;
-}
-.horario2{
+} */
+/* .hour2{
     background-color: black;
     padding-top: 10px;
     height: 400px;
-}
+} */
 
-.horario2__list{
+.hours2__list{
     display:grid;
     align-items: center;
     grid-template-columns: repeat(4, 1fr);
@@ -263,7 +263,7 @@ html{
     font-weight: bold;
 }
 
-.horario__footer{
+.hours__footer{
     font-size: 50px;
     text-align: center;
     list-style: none;
@@ -272,42 +272,42 @@ html{
     padding-top: 20px;
     background-color: rgb(167, 135, 235);
 }
-.horario__footer1{
+.hours__footer1{
     border-right: 3px solid black;
 }
-.horario__footer2{
+.hours__footer2{
     border-right: 3px solid black;
 }
-.horario__footer3{
+.hours__footer3{
     border-right: 3px solid black;
 }
-.horario__footer4{
+.hours__footer4{
     grid-column: 1/2;
     grid-row: 2/3;
     border-right: 3px solid black;
 }
-.horario__footer5{
+.hours__footer5{
     border-right: 3px solid black;
     grid-column: 2/3;
     grid-row: 2/3;
 }
-.horario__footer6{
+.hours__footer6{
     grid-column: 3/4;
     border-right: 3px solid black;
 }
-.horario__footer7{
+.hours__footer7{
     grid-row: 1/3;
     grid-column: 4/5;
     padding-top: 40px;
 }
 /*Lugar */
-.lugar{
+.place{
     z-index: 21;
     height: 100vh;
     width: 100%;
 }
 
-.lugar__content{
+.place__content{
     display: flex;
     font-size: 30px;
     color: wheat;
@@ -317,7 +317,7 @@ html{
 }
 
 
-.lugar__img{
+.place__img{
     background-size:contain;
     background-attachment: fixed;
     background-image: url(./imagenes/piso.jpg);
@@ -330,31 +330,32 @@ html{
     top: -30 px;
     
 }
-.lugar__text{
+.place__text{
     margin: 60px;
     min-width: 600px;
 }
-.lugar__title{
+.place__title{
     color: white;
     z-index: 20;
     font-size: 100px;
     background-color: black;
 }
-.lugar__subtitle{
+.place__subtitle{
     margin: 60px 0;
 }
-.lugar__p{
+.place__p{
     z-index: 19;
     background-color: black;
 }
 
 /* patrocinadores */
-.patrocinadores__content{
+.sponsors__content{
     background-color: blueviolet;
     width: 100%;
     height: 400px;
+    
 }
-.patrocinadores{
+.sponsors{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -362,24 +363,24 @@ html{
     height: 60%;
     font-size: 2rem;
 }
-.patrocinadores__h4{
+.sponsors__h4{
     font-size: 3rem;
     margin: 0 30px;
 }
 
-.patrocinadores__line{
+.sponsors__line{
     margin-bottom: 30px;
     padding-left: 10px;
 }
-.marcas{
+.brands{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    width: 100%;
 }
-.marcas__img{
+.brands__img{
     margin: 20px;
-    width: 80px;
+    width: 60px;
 }
 
 /* Footer */
@@ -516,14 +517,18 @@ html{
     color: aliceblue;
 }
 
-.footer__terminos{
+.footer__terms{
     display: flex;
 }
 
-.terminos{
+.terms{
     margin: 0 20px;
 }
 
-.politica{
+.privacy{
     margin: 0 20px;
+}
+.caca{
+    width: 100px;
+    height: 200px;
 }
