@@ -408,8 +408,8 @@ html{
     height: 33%;
 }
 .footer__title{
- font-size: 3rem;
- max-width: 400px;
+    font-size: 3rem;
+    max-width: 400px;
 }
 .footer__line{
     border-bottom: 2px solid rgb(255, 255, 255);
@@ -439,7 +439,7 @@ html{
     
 }
 .footer__pay--p{
-   
+
 } */
 .footer__p{
     color: rgba(240, 248, 255, 0.522);
@@ -476,7 +476,7 @@ html{
     
 }
 /* .footer__f4--contact{
-   
+
     
 } */
 .footer__p--contact{
