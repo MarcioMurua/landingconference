@@ -24,3 +24,7 @@ debug_button.onclick = function() {
 	debug_button.classList.toggle('is-active');
 	document.body.classList.toggle('is-debug');
 }
+const list = document.getElementById('list')
+		menu.addEventListener('click' , () => {
+			list.classList.toggle('list-activo')
+		})
