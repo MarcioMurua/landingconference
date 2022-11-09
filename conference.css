@@ -535,36 +535,38 @@ html{
         min-width: 100px;
     }
     .list{
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        font-size: 12px;
-        gap: 0;
-        text-align: center;
-        top: 15px;
-        color: rgb(255, 250, 184);
-        position: fixed;
-        right: 0;    
-        
-        transform: translateX(0);
-    }
-    .list-activo {
-        padding: 0;
-		top: 0;
-		left: 0;
-		height: 100%;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
 		position: fixed;
 		transform: translateX(-100%);
 		transition: 0.5s;
+		top:0;
+		left: 0;
+        width: 30%;
+		height: 100%;
+        justify-content: flex-start;
+        background-color: rgb(87, 21, 21);
+        padding-top: 30px;
+        padding-left: 10px;
+        text-align: start;
+    }
+    .list-activo {
+        transform: translateX(0);
     }
     .list__button{
-        font-size: 20px;
-		font-weight: bold;
-		transform: translateX(205px);
+		transform: translateX(100px);
 		display: block;
 		position: absolute;
-		top: 20px;
-        margin-left:10px ;
-        margin-top: 25px;
+        left: 20px;
+        top: 42px;
+        width: 25px;
+    }
+    .list6{
+    background-color: rgb(0, 0, 0);
+    width: 120%;
+    height: 150%;
+    padding-top: 0;
     }
     .networks{
         right: 10px;
