@@ -182,7 +182,8 @@ html{
     background-color: rgb(255, 255, 255);
 }
 .orator__img{
-    margin-right: 20px;
+    margin-right: 100%;
+    position: absolute;
 }
 .orator__p{
     font-size: 30px;
