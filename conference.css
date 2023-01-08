@@ -162,10 +162,8 @@ html{
     font-size: 40px;
     margin: 50px;
     white-space: nowrap;
-    display: inline;
 }
 .info__orator{
-    display: inline;
     margin: 50px;
     font-size: 40px;
     white-space: nowrap;
@@ -180,16 +178,14 @@ html{
     align-content: center;
     background-color: #f6bb88;
     min-width:838px ;
+    gap: 10px;
 }
-.orator__img{
-    grid-column: 1/2;
-    grid-row: 1/2;
-    margin-right: 10%;
-}
+
 .orator__p{
     grid-row: 1/2;
     grid-column: 2/3;
     font-size: 25px;
+    
 }
 .orator2{
     grid-row: 2/3;
@@ -528,7 +524,7 @@ html{
         transform: translateX(0);
     }
     .list__button{
-		transform: translateX(100px);
+		transform: translateX(175px);
 		display: block;
 		position: absolute;
         left: 15px;
@@ -545,13 +541,13 @@ html{
         grid-template-columns: repeat(1, 1fr);
     }
     .title{
-        font-size: 62px;
+        font-size: 32px;
         padding: 20px;
         grid-column: 2/3;
         margin-bottom: 100px;
     }
     .sub__title{
-        margin-right: 20px;
+        margin: 0;
         font-size: 20px;
     }
     ._{
@@ -567,25 +563,48 @@ html{
     .tickets{
         display: none;
     }
-
+    
     /* ORATOR */
-
+    .orator{
+        height: fit-content;
+    }
+    .orator__container{
+        max-width: none;
+        height: fit-content;
+        width: 100vw;
+    }
     .orator__top{
-        
+        flex-direction: column;
+    }
+    .orator__info{
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+        width: fit-content;
     }
     .info__orator{
         font-size: 30px;
-
+        
     }
     .orator__info p{
-        display: none;
+        /* display: none; */
+    }
+    .orator__p{
+        width: 90vw;
+        grid-row: none;
+        grid-column: none;
     }
     .orator__img{
-        grid-column: 1/3;
+        max-width: 120vw;
+        width: 90vw;
+        place-self: center;
+        justify-self: end;
+        margin: 0;
     }
     .orator2{
         height: 10vh;
-        min-width: 300px;
+        min-width: 0;
+        max-width: 0;
     }
     .orator__button1{
         place-self:end;
@@ -601,6 +620,7 @@ html{
     }
     .orator__item{
     font-size: 20px;
+    width: 90%;
     }
 
     /* ______ */
@@ -707,7 +727,7 @@ html{
 }
 .footer__info{
     align-items: flex-end;
-    width: 100%;
+    width: 100vw;
     padding: 0 10px;
     height: 80px;
     font-size: 9px;
