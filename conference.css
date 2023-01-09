@@ -2,6 +2,10 @@
 
 html{
     scroll-behavior: smooth;
+    width: 100vw;
+}
+body{
+    width: 100vw;
 }
 .img__header{
     position: fixed;
@@ -26,7 +30,7 @@ html{
     filter: grayscale(0.5) brightness(0.3) blur(2px);
     background-attachment: fixed;
     background-image: url(./imagenes/minifondo.jpg);
-    width: 100vw;
+    width: 99vw;
     height: 290vh;
     background-position: center;
     z-index: -1;
@@ -107,9 +111,9 @@ html{
 }
 .time{
     display: flex;
-    margin-bottom: 500px;
+    margin-bottom: 40vh;
     margin-top: 50px;
-    margin-left: 60%;
+    margin-left: 40vw;
     white-space: nowrap;
 }
 .day{
@@ -143,7 +147,7 @@ html{
 .orator{
     display: flex;
     background-color: rgba(173, 216, 230, 0.347);
-    width: 100vw;
+    width: 70vw;
     justify-content: center;
     height: 120vh;
 }
@@ -239,6 +243,7 @@ html{
     font-size: 50px;
     color: white;
     background-color: rgba(0, 0, 124, 0.451) ;
+    width: 100vw;
 }
 .hours__title{
     padding: 50px;
@@ -247,10 +252,10 @@ html{
     padding: 50px;
     list-style: none;
     border-top: 1px  solid black;
+    width: 100vw;
 }
 
 /* _____ */
-
 
 .hours2__list{
     display:grid;
@@ -312,7 +317,7 @@ html{
     color: wheat;
     background-color: black;
     justify-content: space-between;
-    height: 100%;
+    height: 100vw;
 }
 .place__img{
     background-size:contain;
@@ -346,7 +351,7 @@ html{
 
 .sponsors__content{
     background-color: blueviolet;
-    width: 100%;
+    width: 100vw;
     height: 400px;
     
 }
@@ -354,7 +359,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%;
+    width: 100vw;
     height: 60%;
     font-size: 2rem;
 }
@@ -388,7 +393,7 @@ html{
 .footer__content{
     
     max-width: 1000px;
-    width: 100%;
+    width: 100vw;
     height: 60vh;
     background-color: rgb(56, 2, 55);
     color: rgb(255, 255, 255);
@@ -579,8 +584,8 @@ html{
     .orator__info{
         display: flex;
         flex-direction: column;
-        height: fit-content;
-        width: fit-content;
+        /* height: fit-content; */
+        /* width: fit-content; */
     }
     .info__orator{
         font-size: 30px;
@@ -593,6 +598,8 @@ html{
         width: 90vw;
         grid-row: none;
         grid-column: none;
+        font-size: 20px;
+        align-self: center;
     }
     .orator__img{
         max-width: 120vw;
@@ -605,6 +612,12 @@ html{
         height: 10vh;
         min-width: 0;
         max-width: 0;
+        margin: 0;
+        width: 90vw;
+        grid-row: none;
+        /* grid-column: none; */
+        /* font-size: 20px; */
+        /* align-self: center; */
     }
     .orator__button1{
         place-self:end;
@@ -627,6 +640,7 @@ html{
 
     .background2{
         background-attachment:scroll;
+        width: 100vw;
     }
     .hours{
         background-color: rgba(0, 0, 124, 0) ;
